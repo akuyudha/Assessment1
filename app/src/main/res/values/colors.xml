@@ -7,4 +7,16 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!--Gradient Color-->
+    <color name="purple_neon">#6157FF</color>
+    <color name="pink_neon">#EE49FD</color>
+    <color name="deep_purple_500">#673ab7</color>
+    <color name="green_ocean">#2DFFF5</color>
+    <color name="yellow_lime">#FFF878</color>
+    <!--Gradient Color Night-->
+    <color name="navy">#371B58</color>
+    <color name="purple1">#4C3575</color>
+    <color name="purple2">#5B4B8A</color>
+    <color name="purple3">#7858A6</color>
 </resources>

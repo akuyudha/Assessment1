@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Assessment1</string>
+    <string name="hitung">Hitung</string>
+    <string name="bilanganPertama">Bilangan Pertama</string>
+    <string name="bilanganKedua">Bilangan Kedua</string>
+    <string name="hasilHitung">Hasil: %1$.2f</string>
+    <string name="jKalkulator">KALKULATOR</string>
+    <string-array name="operator">
+        <item>Pilih Operator</item>
+        <item>+ (Penjumlahan)</item>
+        <item>- (Pengurangan)</item>
+        <item>x (Perkalian)</item>
+        <item>/ (Pembagian)</item>
+    </string-array>
 </resources>
