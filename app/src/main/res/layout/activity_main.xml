@@ -38,6 +38,7 @@
                 android:id="@+id/bilanganPertama"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:inputType="number"
                 android:fontFamily="@font/montserrat_alternates_medium"
                 android:hint="@string/bilanganPertama" />
         </com.google.android.material.textfield.TextInputLayout>
@@ -56,6 +57,7 @@
                 android:id="@+id/bilanganKedua"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:inputType="number"
                 android:fontFamily="@font/montserrat_alternates_medium"
                 android:hint="@string/bilanganKedua" />
         </com.google.android.material.textfield.TextInputLayout>

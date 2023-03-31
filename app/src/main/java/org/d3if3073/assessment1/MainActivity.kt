@@ -40,8 +40,6 @@ class MainActivity : AppCompatActivity() {
             return
         }
 
-
-
         if(operator.equals("+ (Penjumlahan)", ignoreCase = true)){
             var hitungJumlah = bil1toInt + bil2ToInt
             binding.hasil.text = "Hasil :  $hitungJumlah"
