@@ -12,4 +12,11 @@
         <item>x (Perkalian)</item>
         <item>/ (Pembagian)</item>
     </string-array>
+    <string name="textCopyright">Aplikasi ini adalah sebuah aplikasi Android sederhana yang dibuat untuk keperluan Assessment 2. Dalam aplikasi ini terdapat operator penjumlahan, pengurangan, perkalian, dan pembagian.
+        \n\nAplikasi ini dibuat oleh:\nElang Andhika Yudha Prawira\n6706213073\nD3RPLA45-03. Temukan kode ini di https://github.com/akuyudha/Assessment1.git
+        \n\nCopyright © 2023 Elang Andhika Yudha Prawira(yudhabae).</string>
+    <string name="tentang_aplikasi">Tentang Aplikasi</string>
+    <string name="bagikan">Bagikan</string>
+    <string name="templateBagikan">Bilangan pertama: %1$s\nBilangan kedua: %2$s\nOperator: %3$s\n\n%4$s</string>
+    <string name="nama_aplikasi">Kalkulator</string>
 </resources>
