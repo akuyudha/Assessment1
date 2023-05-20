@@ -19,4 +19,12 @@
     <string name="bagikan">Bagikan</string>
     <string name="templateBagikan">Bilangan pertama: %1$s\nBilangan kedua: %2$s\nOperator: %3$s\n\n%4$s</string>
     <string name="nama_aplikasi">Kalkulator</string>
+    <string name="data_null">Belum ada data</string>
+    <string name="history">History</string>
+    <string name="hasil_x">Jumlah: %1$.1f</string>
+    <string name="data_x">Bil1: %1$.1f - Bil2: %2$.1f - Operator: %3$s</string>
+    <string name="hapus">Hapus Histori</string>
+    <string name="konfirm_hapus">Yakin ingin menghapus permanen semua histori?</string>
+    <string name="hapus_ya">Hapus</string>
+    <string name="hapus_batal">Batal</string>
 </resources>

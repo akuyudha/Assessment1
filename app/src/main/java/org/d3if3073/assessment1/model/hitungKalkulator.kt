@@ -1,6 +1,8 @@
 package org.d3if3073.assessment1.model
 
-fun Hitung.hitungKalkulator(): Hasil {
+import org.d3if3073.assessment1.db.KalkulatorEntity
+
+fun KalkulatorEntity.hitungKalkulator(): Hasil {
     val bil1 = bil1
     val bil2 = bil2
     val operatorPerhitungan =

@@ -7,16 +7,24 @@
 
     <fragment
         android:id="@+id/mainFragment"
-        android:name="org.d3if3073.assessment1.ui.MainFragment"
+        android:name="org.d3if3073.assessment1.ui.hitung.MainFragment"
         android:label="@string/nama_aplikasi"
         tools:layout="@layout/main_fragment" >
         <action
             android:id="@+id/action_mainFragment_to_aboutFragment"
             app:destination="@id/aboutFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_historiFragment"
+            app:destination="@id/historiFragment" />
     </fragment>
     <fragment
         android:id="@+id/aboutFragment"
         android:name="org.d3if3073.assessment1.ui.AboutFragment"
         android:label="@string/tentang_aplikasi"
         tools:layout="@layout/about_fragment"/>
+    <fragment
+        android:id="@+id/historiFragment"
+        android:name="org.d3if3073.assessment1.ui.histori.HistoriFragment"
+        android:label="@string/history"
+        tools:layout="@layout/history_fragment"/>
 </navigation>
