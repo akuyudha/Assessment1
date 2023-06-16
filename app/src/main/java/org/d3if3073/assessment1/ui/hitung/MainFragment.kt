@@ -4,7 +4,6 @@ import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.text.TextUtils
-import android.util.Log
 import android.view.*
 import android.widget.Toast
 import androidx.fragment.app.Fragment
@@ -40,7 +39,9 @@ class MainFragment : Fragment() {
         binding.btHitung.setOnClickListener { hitungBilangan() }
         binding.btBagikan.setOnClickListener { bagikanData() }
         viewModel.getHasil().observe(requireActivity()) { showResult(it) }
+
     }
+
 
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
         super.onCreateOptionsMenu(menu, inflater)
@@ -48,7 +49,7 @@ class MainFragment : Fragment() {
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        when(item.itemId) {
+        when (item.itemId) {
             R.id.menu_history -> {
                 findNavController().navigate(R.id.action_mainFragment_to_historiFragment)
                 return true
@@ -56,6 +57,12 @@ class MainFragment : Fragment() {
             R.id.menu_about -> {
                 findNavController().navigate(
                     R.id.action_mainFragment_to_aboutFragment
+                )
+                return true
+            }
+            R.id.menu_deskripsi -> {
+                findNavController().navigate(
+                    R.id.action_mainFragment_to_kalkulatorFragment
                 )
                 return true
             }
@@ -108,4 +115,6 @@ class MainFragment : Fragment() {
             startActivity(shareIntent)
         }
     }
+
+
 }

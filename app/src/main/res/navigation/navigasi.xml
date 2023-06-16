@@ -16,6 +16,9 @@
         <action
             android:id="@+id/action_mainFragment_to_historiFragment"
             app:destination="@id/historiFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_kalkulatorFragment"
+            app:destination="@id/kalkulatorFragment" />
     </fragment>
     <fragment
         android:id="@+id/aboutFragment"
@@ -27,4 +30,8 @@
         android:name="org.d3if3073.assessment1.ui.histori.HistoriFragment"
         android:label="@string/history"
         tools:layout="@layout/history_fragment"/>
+    <fragment
+        android:id="@+id/kalkulatorFragment"
+        android:name="org.d3if3073.assessment1.ui.KalkulatorFragment"
+        android:label="KalkulatorFragment" />
 </navigation>

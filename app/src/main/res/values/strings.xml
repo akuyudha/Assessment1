@@ -27,4 +27,11 @@
     <string name="konfirm_hapus">Yakin ingin menghapus permanen semua histori?</string>
     <string name="hapus_ya">Hapus</string>
     <string name="hapus_batal">Batal</string>
+    <string name="operator_png">operator.png</string>
+    <string name="deskripsi_operator">Deskripsi Operator</string>
+    <string name="koneksi_error">Koneksi error</string>
+    <string name="channel_name">Pengingat</string>
+    <string name="channel_desc">Pengingat kalkulator otomatis</string>
+    <string name="notif_title">Ayo berhitung!</string>
+    <string name="notif_text">Cek sekarang untuk mulai menghitung..</string>
 </resources>
