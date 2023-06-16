@@ -1,0 +1,6 @@
+[
+  {"jenisOperator" : "tambah", "informasi" : "Operator tambah digunakan untuk menjumlahkan dua nilai atau ekspresi numerik dalam berbagai bahasa pemrograman dan dalam matematika pada umumnya.", "gambar", "tambah"},
+  {"jenisOperator" : "kurang", "informasi" : "Operator pengurangan digunakan untuk mengurangi satu nilai atau ekspresi numerik dari yang lain. Operator ini digunakan dalam matematika dan bahasa pemrograman untuk melakukan operasi pengurangan antara angka atau variabel.", "gambar", "kurang"},  
+  {"jenisOperator" : "kali", "informasi" : "Operator Perkalian digunakan untuk mengalikan dua nilai atau ekspresi numerik. Operator ini digunakan dalam matematika dan bahasa pemrograman untuk melakukan operasi perkalian antara angka atau variabel.", "gambar", "kali"},
+  {"jenisOperator" : "bagi", "informasi" : "Operator pembagian digunakan untuk membagi satu nilai atau ekspresi numerik dengan yang lain. Operator ini digunakan dalam matematika dan bahasa pemrograman untuk melakukan operasi pembagian antara angka atau variabel.", "gambar", "bagi"}
+]
